@@ -6,11 +6,11 @@
 
 ## Screenshot
 
-![image](https://user-images.githubusercontent.com/27709832/143310498-3307214b-6229-48b4-9e3a-f044e4194c1b.png)
+![image](https://user-images.githubusercontent.com/27709832/152837143-61c0413f-1382-4c88-9791-8e01b88770ef.png)
 
 ## Live Demo
 
-View the [Coming soon...](https://brytebee.github.io/Math-Magicians/) here ☕
+[No Live Demo yet](https://placeholder/)
 
 ## Built With
 
