@@ -6,7 +6,7 @@
 
 ## Screenshot
 
-![No image yet](https://placeholder/)
+![image](https://user-images.githubusercontent.com/27709832/152837143-61c0413f-1382-4c88-9791-8e01b88770ef.png)
 
 ## Live Demo
 
@@ -40,7 +40,7 @@ Load the page and enjoy!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/brytebee/Math-Magicians/issues) here 😏😏.
+Feel free to check the [issues page](https://github.com/brytebee/Math-Magicians/issues).
 
 ## Show your support
 
