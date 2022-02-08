@@ -5,8 +5,13 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.main {
+  margin: 8.85% 20%;
+  justify-content: space-around;
+}
+
 .container {
-  margin: 10% 30%;
+  min-width: 40rem;
 }
 
 .button {
@@ -44,4 +49,38 @@
 
 .operator {
   background-color: #f5913e;
+}
+
+/* links */
+
+nav {
+  display: flex;
+  min-height: 8vh;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(48, 54, 56);
+  color: white;
+}
+
+.list-items {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* quote */
+
+.content-container {
+  margin: 18.8% 30%;
+}
+
+.content {
+  text-align: center;
 }
