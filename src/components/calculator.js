@@ -9,6 +9,9 @@ const Calculator = () => {
     operation: null,
   });
 
+  const firstRow = ['AC', '+/-', '%', '÷'];
+  const secondRow = ['7', '8', '9', 'x'];
+
   const clickHandler = (e) => {
     const buttonName = e.currentTarget.textContent.trim();
     setState(calculate(obj, buttonName));
@@ -22,67 +25,31 @@ const Calculator = () => {
             {obj.next || obj.operation || obj.total || 0}
           </p>
         </div>
-        <div className="first-row d-flex">
-          <button
-            className="button flex-child"
-            type="button"
-            onClick={clickHandler}
-          >
-            AC
-          </button>
-          <button
-            className="button flex-child"
-            type="button"
-            onClick={clickHandler}
-          >
-            +/-
-          </button>
-          <button
-            className="button flex-child"
-            type="button"
-            onClick={clickHandler}
-          >
-            %
-          </button>
-          <button
-            className="button flex-child operator"
-            type="button"
-            onClick={clickHandler}
-          >
-            &#247;
-          </button>
+        <div className="d-flex">
+          {firstRow.map((text) => (
+            <button
+              key={text}
+              className="button flex-child"
+              type="button"
+              onClick={clickHandler}
+            >
+              {text}
+            </button>
+          ))}
         </div>
-        <div className="second-row d-flex">
-          <button
-            className="button flex-child"
-            type="button"
-            onClick={clickHandler}
-          >
-            7
-          </button>
-          <button
-            className="button flex-child"
-            type="button"
-            onClick={clickHandler}
-          >
-            8
-          </button>
-          <button
-            className="button flex-child"
-            type="button"
-            onClick={clickHandler}
-          >
-            9
-          </button>
-          <button
-            className="button flex-child operator"
-            type="button"
-            onClick={clickHandler}
-          >
-            x
-          </button>
+        <div className="d-flex">
+          {secondRow.map((text) => (
+            <button
+              key={text}
+              className="button flex-child"
+              type="button"
+              onClick={clickHandler}
+            >
+              {text}
+            </button>
+          ))}
         </div>
-        <div className="third-row d-flex">
+        <div className="d-flex">
           <button
             className="button flex-child"
             type="button"
@@ -114,7 +81,7 @@ const Calculator = () => {
             {' '}
           </button>
         </div>
-        <div className="fourth-row d-flex">
+        <div className="d-flex">
           <button
             className="button flex-child"
             type="button"
@@ -146,7 +113,7 @@ const Calculator = () => {
             {' '}
           </button>
         </div>
-        <div className="fifth-row d-flex">
+        <div className="d-flex">
           <button
             className="button big-child"
             type="button"
