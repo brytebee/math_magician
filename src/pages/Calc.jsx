@@ -2,7 +2,7 @@ import Calculator from '../components/calculator';
 
 const Calc = () => (
   <div className="paddy d-flex">
-    <h1 className="flex-child">Let&lsquo;s Do Some Math</h1>
+    <h2 className="cal-p flex-child">Let&lsquo;s Do Some Math</h2>
     <div className="big-child">
       <Calculator />
     </div>

@@ -2,11 +2,11 @@
   padding: 0;
   margin: 0;
   font-weight: 600;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 p {
   text-align: justify;
+  font-family: 'Poppins', sans-serif;
 }
 
 .button {
@@ -17,6 +17,7 @@ p {
 
 .container {
   width: 100%;
+  font-family: 'Poppins', sans-serif;
 }
 
 .result {
@@ -53,6 +54,7 @@ p {
 /* links */
 
 nav {
+  font-family: 'Poppins', sans-serif;
   padding: 0 12%;
   min-height: 8vh;
   align-items: center;
@@ -80,10 +82,13 @@ a:-webkit-any-link {
 
 .paddy {
   padding: 8% 12%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .heading {
   padding: 3% 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
 }
 
 .s-betw {
@@ -103,4 +108,8 @@ a:-webkit-any-link {
 .author {
   opacity: 0.8;
   padding: 2%;
+}
+
+.cal-p {
+  font-family: cursive;
 }
