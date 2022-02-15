@@ -5,6 +5,8 @@ import Index from './pages/Index';
 import Quotes from './pages/Quotes';
 
 const App = () => (
+  <>
+  <Navba
   <Router>
     <Routes>
       <Route path="/" exact element={<Index />} />
@@ -13,6 +15,7 @@ const App = () => (
       <Route path="*" element={<Error />} />
     </Routes>
   </Router>
+  </>
 );
 
 export default App;
