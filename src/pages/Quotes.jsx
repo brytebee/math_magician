@@ -19,7 +19,7 @@ const Quotes = () => {
     <div className="paddy">
       <h2 className="heading j-right">Quote</h2>
       <p className="quote j-right">{`"${theQuote}"`}</p>
-      <p className="author j-right">
+      <p className="author j-right p-bot">
         <i>{`~${author}`}</i>
       </p>
     </div>

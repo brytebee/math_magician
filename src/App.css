@@ -55,11 +55,11 @@ p {
 
 nav {
   font-family: 'Poppins', sans-serif;
+  color: #f5913e;
   padding: 0 12%;
   min-height: 8vh;
   align-items: center;
   background-color: rgb(48, 54, 56);
-  color: white;
 }
 
 .list-items {
@@ -97,7 +97,6 @@ a:-webkit-any-link {
 
 .j-right {
   text-align: center;
-  justify-content: center;
 }
 
 .quote {
@@ -112,4 +111,12 @@ a:-webkit-any-link {
 
 .cal-p {
   font-family: cursive;
+}
+
+.orangered {
+  color: orangered;
+}
+
+.p-bot {
+  padding-bottom: 9rem;
 }
