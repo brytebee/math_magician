@@ -5,9 +5,8 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.main {
-  margin: 8.85% 20%;
-  justify-content: space-around;
+p {
+  text-align: justify;
 }
 
 .button {
@@ -16,19 +15,23 @@
   border: 1px solid rgb(201, 188, 174);
 }
 
-.result {
+.container {
   width: 100%;
+}
+
+.result {
   background-color: #858694;
   border: none;
   text-align: end;
   pointer-events: none;
 }
 
-.result-text {
+.result p {
   color: #fff;
   padding-right: 10px;
   padding-top: 18px;
   font-size: 1.8rem;
+  text-align: end;
 }
 
 .d-flex {
@@ -50,6 +53,7 @@
 /* links */
 
 nav {
+  padding: 0 12%;
   min-height: 8vh;
   align-items: center;
   background-color: rgb(48, 54, 56);
@@ -60,7 +64,6 @@ nav {
   display: flex;
   width: 30%;
   justify-content: space-around;
-  align-items: center;
   list-style: none;
 }
 
@@ -75,14 +78,29 @@ a:-webkit-any-link {
   padding: 3% 12%;
 }
 
+.paddy {
+  padding: 8% 12%;
+}
+
 .heading {
   padding: 3% 0;
 }
 
-p {
-  text-align: justify;
-}
-
 .s-betw {
   justify-content: space-between;
+}
+
+.j-right {
+  text-align: center;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.author {
+  opacity: 0.8;
+  padding: 2%;
 }
