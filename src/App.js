@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Calc from './pages/Calc';
 import Error from './pages/Error';
@@ -16,6 +17,7 @@ const App = () => (
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
+    <Footer />
   </>
 );
 
