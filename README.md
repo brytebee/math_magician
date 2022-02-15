@@ -6,7 +6,7 @@
 
 ## Screenshot
 
-![image](https://user-images.githubusercontent.com/27709832/152837143-61c0413f-1382-4c88-9791-8e01b88770ef.png)
+![image](https://user-images.githubusercontent.com/27709832/154130653-c852822a-dd60-42cf-8525-47bf9d58ff55.png)
 
 ## Live Demo
 

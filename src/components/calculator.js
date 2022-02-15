@@ -20,7 +20,7 @@ const Calculator = () => {
   };
 
   return (
-    <div className="main d-flex">
+    <div className="d-flex">
       <div className="container">
         <div className="button result">
           <p className="result-text">
