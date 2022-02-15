@@ -7,8 +7,8 @@ import Quotes from './pages/Quotes';
 
 const App = () => (
   <>
-    <Navbar />
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" exact element={<Index />} />
         <Route path="/calculator" element={<Calc />} />
