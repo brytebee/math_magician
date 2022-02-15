@@ -1,7 +1,7 @@
 const Index = () => (
-  <div>
-    <h1>Welcome to our page</h1>
-    <h3>
+  <div className="pad">
+    <h2 className="heading">Welcome to our page</h2>
+    <h3 className="heading">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa,
       assumenda!
     </h3>
@@ -17,7 +17,9 @@ const Index = () => (
       id architecto culpa minus, in fugiat perferendis quae quis ad. Lorem ipsum
       dolor sit amet consectetur adipisicing elit. Vel, fugiat.
     </p>
-    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+    <h3 className="heading">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+    </h3>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
       laboriosam vel magnam doloribus! Distinctio reprehenderit modi quos
@@ -30,7 +32,7 @@ const Index = () => (
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nisi
       expedita, soluta dolor odio quidem voluptas fugiat eos doloremque vitae.
     </p>
-    <h3>
+    <h3 className="heading">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae magni
       nesciunt similique.
     </h3>

@@ -10,10 +10,6 @@
   justify-content: space-around;
 }
 
-.container {
-  min-width: 40rem;
-}
-
 .button {
   font-size: 1.2rem;
   height: 60px;
@@ -54,9 +50,7 @@
 /* links */
 
 nav {
-  display: flex;
   min-height: 8vh;
-  justify-content: space-around;
   align-items: center;
   background-color: rgb(48, 54, 56);
   color: white;
@@ -77,10 +71,18 @@ a:-webkit-any-link {
 
 /* quote */
 
-.content-container {
-  margin: 18.8% 30%;
+.pad {
+  padding: 3% 12%;
 }
 
-.content {
-  text-align: center;
+.heading {
+  padding: 3% 0;
+}
+
+p {
+  text-align: justify;
+}
+
+.s-betw {
+  justify-content: space-between;
 }

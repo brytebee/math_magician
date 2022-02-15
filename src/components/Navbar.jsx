@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <nav>
+  <nav className="pad d-flex s-betw">
     <Link to="/">
       <h1>Math Magicians</h1>
     </Link>
