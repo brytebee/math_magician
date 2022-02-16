@@ -1,4 +1,3 @@
-import ReactDOM from 'react-dom';
 import { cleanup } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import Index from '../pages/Index';
