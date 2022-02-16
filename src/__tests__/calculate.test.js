@@ -33,4 +33,24 @@ describe('Test calculate function', () => {
       operation: '+',
     });
   });
+
+  it('Test 1 button', () => {
+    obj = { total: 6, next: 1, operation: '+' };
+    buttonName = '1';
+    expect(calculate(obj, buttonName)).toStrictEqual({
+      total: 6,
+      next: '11',
+      operation: '+',
+    });
+  });
+
+  it('Test 2 button', () => {
+    obj = { total: 6, next: 2, operation: '-' };
+    buttonName = '2';
+    expect(calculate(obj, buttonName)).toStrictEqual({
+      total: 6,
+      next: '22',
+      operation: '-',
+    });
+  });
 });
