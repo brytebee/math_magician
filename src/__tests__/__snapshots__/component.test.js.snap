@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot of Calculator component Renders the Calc page 1`] = `
+<div
+  className="paddy d-flex"
+>
+  <h2
+    className="cal-p flex-child"
+  >
+    Let‘s Do Some Math
+  </h2>
+  <div
+    className="big-child"
+  >
+    <div
+      className="d-flex"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="button result"
+        >
+          <p
+            className="result-text"
+          >
+            0
+          </p>
+        </div>
+        <div
+          className="d-flex"
+        >
+          <button
+            className="button flex-child"
+            onClick={[Function]}
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            className="button flex-child"
+            onClick={[Function]}
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            className="button flex-child"
+            onClick={[Function]}
+            type="button"
+          >
+            %
+          </button>
+          <button
+            className="button flex-child operator"
+            onClick={[Function]}
+            type="button"
+          >
+            ÷
+          </button>
+        </div>
+        <div
+          className="d-flex"
+        >
+          <button
+            className="button flex-child"
+            onClick={[Function]}
+            type="button"
+          >
+            7
+          </button>
+          <button
+            className="button flex-child"
+            onClick={[Function]}
+            type="button"
+          >
+            8
+          </button>
+          <button
+            className="button flex-child"
+            onClick={[Function]}
+            type="button"
+          >
+            9
+          </button>
+          <button
+            className="button flex-child operator"
+            onClick={[Function]}
+            type="button"
+          >
+            x
+          </button>
+        </div>
+        <div
+          className="d-flex"
+        >
+          <button
+            className="button flex-child"
+            onClick={[Function]}
+            type="button"
+          >
+            4
+          </button>
+          <button
+            className="button flex-child"
+            onClick={[Function]}
+            type="button"
+          >
+            5
+          </button>
+          <button
+            className="button flex-child"
+            onClick={[Function]}
+            type="button"
+          >
+            6
+          </button>
+          <button
+            className="button flex-child operator"
+            onClick={[Function]}
+            type="button"
+          >
+            -
+          </button>
+        </div>
+        <div
+          className="d-flex"
+        >
+          <button
+            className="button flex-child"
+            onClick={[Function]}
+            type="button"
+          >
+            1
+          </button>
+          <button
+            className="button flex-child"
+            onClick={[Function]}
+            type="button"
+          >
+            2
+          </button>
+          <button
+            className="button flex-child"
+            onClick={[Function]}
+            type="button"
+          >
+            3
+          </button>
+          <button
+            className="button flex-child operator"
+            onClick={[Function]}
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <div
+          className="d-flex"
+        >
+          <button
+            className="button big-child"
+            onClick={[Function]}
+            type="button"
+          >
+            0
+          </button>
+          <button
+            className="button flex-child"
+            type="button"
+          >
+             
+            .
+             
+          </button>
+          <button
+            className="button flex-child operator"
+            onClick={[Function]}
+            type="button"
+          >
+             
+            =
+             
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot of Calculator component Renders the Error page 1`] = `
+<div>
+  <h1>
+    404 Error page
+  </h1>
+  <p>
+    The link you have is incorrect. Kindly check it and retry
+  </p>
+</div>
+`;
+
+exports[`Snapshot of Calculator component Renders the Footer component 1`] = `
+<div
+  className="orangered"
+>
+  <hr />
+  <p
+    className="j-right pad"
+  >
+    ©️2022 | With love from
+     
+    <a
+      href="htpps://linkedin.com/in/brytebee"
+    >
+      Atsighi Bright
+    </a>
+  </p>
+</div>
+`;
+
+exports[`Snapshot of Calculator component Renders the Index page 1`] = `
+<div
+  className="pad"
+>
+  <h2
+    className="heading"
+  >
+    Welcome to our page
+  </h2>
+  <h3
+    className="heading"
+  >
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, assumenda!
+  </h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic cupiditate quod dolorem reiciendis tempore autem. Doloremque totam, consectetur ducimus voluptates beatae eius! Dicta voluptas amet nobis quisquam, sapiente totam dolorem, dignissimos suscipit dolores impedit officia voluptates non consequuntur sed nulla!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque adipisci id architecto culpa minus, in fugiat perferendis quae quis ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, fugiat.
+  </p>
+  <h3
+    className="heading"
+  >
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+  </h3>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laboriosam vel magnam doloribus! Distinctio reprehenderit modi quos repellendus mollitia. Recusandae velit ducimus, cum hic mollitia possimus laborum facere deserunt eius, inventore consectetur libero dolorem consequatur voluptates voluptate neque perspiciatis delectus! Maxime dolore aliquid quasi alias nemo expedita voluptates pariatur modi!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nisi expedita, soluta dolor odio quidem voluptas fugiat eos doloremque vitae.
+  </p>
+  <h3
+    className="heading"
+  >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae magni nesciunt similique.
+  </h3>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum delectus dolorem ipsam voluptas quos, cumque necessitatibus voluptatem non soluta, minus animi impedit tempora quas atque beatae facilis, nisi minima velit!
+  </p>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas maiores repudiandae cum nulla accusantium aut, consequuntur quae laudantium nostrum facilis consectetur porro repellat amet obcaecati libero similique? Sunt, magni dolore tempora veniam in ipsa, hic eius quas cum deleniti fugiat odio commodi? Ipsum natus quasi magnam quo explicabo nam hic.
+  </p>
+</div>
+`;
+
+exports[`Snapshot of Calculator component Renders the Quotes page 1`] = `
+<div
+  className="paddy"
+>
+  <h2
+    className="heading j-right"
+  >
+    Quote
+  </h2>
+  <p
+    className="quote j-right"
+  >
+    "Vanity upon vanity."
+  </p>
+  <p
+    className="author j-right p-bot"
+  >
+    <i>
+      ~King Solomon
+    </i>
+  </p>
+</div>
+`;

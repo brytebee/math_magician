@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot of Calculator component Take a snapshot of the Calculator component 1`] = `
+<div
+  className="d-flex"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="button result"
+    >
+      <p
+        className="result-text"
+      >
+        0
+      </p>
+    </div>
+    <div
+      className="d-flex"
+    >
+      <button
+        className="button flex-child"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="button flex-child"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="button flex-child"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="button flex-child operator"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="d-flex"
+    >
+      <button
+        className="button flex-child"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="button flex-child"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="button flex-child"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="button flex-child operator"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </div>
+    <div
+      className="d-flex"
+    >
+      <button
+        className="button flex-child"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="button flex-child"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="button flex-child"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="button flex-child operator"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="d-flex"
+    >
+      <button
+        className="button flex-child"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="button flex-child"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="button flex-child"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="button flex-child operator"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="d-flex"
+    >
+      <button
+        className="button big-child"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="button flex-child"
+        type="button"
+      >
+         
+        .
+         
+      </button>
+      <button
+        className="button flex-child operator"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        =
+         
+      </button>
+    </div>
+  </div>
+</div>
+`;
